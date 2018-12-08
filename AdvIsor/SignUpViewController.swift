@@ -12,8 +12,10 @@ class SignUpViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        navigationController?.navigationBar.isHidden = false
+        //self.navigationController.interactivePopGestureRecognizer.delegate = self;
+        navigationController?.interactivePopGestureRecognizer?.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,5 +33,11 @@ class SignUpViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
 
+}
+
+extension SignUpViewController: UIGestureRecognizerDelegate {
 }

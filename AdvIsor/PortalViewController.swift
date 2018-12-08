@@ -10,10 +10,19 @@ import UIKit
 
 class PortalViewController: UIViewController {
 
+    @IBOutlet weak var hist: UIButton!
+    @IBOutlet weak var info: UIButton!
+    
+    @IBOutlet weak var profileImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+        info.layer.cornerRadius = 12
+        info.clipsToBounds = true
+        
+        hist.layer.cornerRadius = 12
+        hist.clipsToBounds = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,3 +42,4 @@ class PortalViewController: UIViewController {
     */
 
 }
+

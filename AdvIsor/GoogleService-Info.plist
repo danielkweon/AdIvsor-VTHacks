@@ -23,18 +23,18 @@
 	<key>STORAGE_BUCKET</key>
 	<string>advisor-5b7d3.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:630509240724:ios:a2bd45389dc1623b</string>
 	<key>DATABASE_URL</key>
-	<string>https://advisor-5b7d3.firebaseio.com</string>
+	<string>https://advisor-f9705.firebaseio.com</string>
 </dict>
 </plist>
